@@ -1,34 +1,18 @@
-// pages/home/home.js
-import {
-  getMultiData
-}from '../../service/home.js'
-
+// pages/cart/cart.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    urltext: '',
-    banners: []
+
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // 请求轮播图数据
-    getMultiData().then(res=>{
-      // console.log(res)
-      // 取出轮播图数据
-      const banners = res.data.images;
-      // console.log(banners)
 
-      // 将banners放到data中
-      this.setData({
-        banners
-      })
-    })
   },
 
   /**

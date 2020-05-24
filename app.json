@@ -1,5 +1,46 @@
 {
-  "pages":[
-    "pages/home/home"
-  ]
+  "pages": [
+    "pages/home/home",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#791BAC",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "NorthSea 作业代做",
+    "backgroundColor": "#BF00BF",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "selectedColor": "#BF00BF",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "发布",
+        "iconPath": "/assets/tabbar/home.png",
+        "selectedIconPath": "/assets/tabbar/home_active.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "技术中心",
+        "iconPath": "/assets/tabbar/category.png",
+        "selectedIconPath": "/assets/tabbar/category_active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "联系我们",
+        "iconPath": "/assets/tabbar/cart.png",
+        "selectedIconPath": "/assets/tabbar/cart_active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的空间",
+        "iconPath": "/assets/tabbar/profile.png",
+        "selectedIconPath": "/assets/tabbar/profile_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap3.json"
 }

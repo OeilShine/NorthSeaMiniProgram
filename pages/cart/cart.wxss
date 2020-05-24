@@ -1,0 +1,7 @@
+view image{
+  background-size: cover;
+}
+view{
+  color: red;
+  text-align: center;
+}

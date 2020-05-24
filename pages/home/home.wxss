@@ -1,1 +1,18 @@
-/* pages/home/home.wxss */
+.title{
+  text-align: center;
+  color: #E30180;
+}
+/* .urltext{
+  color: red;
+  background: #791BAC;
+  width: 320px;
+} */
+/* .blueBtn{
+  display: flex;
+}
+button{
+  background: #9B99DC;
+  margin: 0 5px;
+  flex: 1;
+  color: #FCB90F;
+} */

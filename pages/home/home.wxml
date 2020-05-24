@@ -1,2 +1,15 @@
-<!--pages/home/home.wxml-->
-<text>世界,你好</text>
+
+  <!-- 展示轮播图 -->
+  <w-swiper list="{{banners}}"/>
+
+ <view class="title">世界，你好</view>  
+<view class="title">Hello World</view>
+
+<!-- 
+<view>
+  前端:代做期末网页结课作业和微信小程序的开发和个人的博客和个人的网站的搭建主要技术有html、css、js、vue、jquery、Ajax
+  C语言、Java的结课作业包含javaweb结课作业和电脑维修
+  ps，pr作品，电脑各类软件的破解及软件的安装（对电脑的各种系统重装以及黑苹果的重装）
+  价格私聊，绝对全网最低价，业务在校园范围内开展
+  有意者点击下方联系我们切换页面！
+</view> -->

@@ -1,0 +1,8 @@
+.title{
+  color: #FCB90F;
+  text-align: center;
+}
+
+view text{
+  color: #2E83DD;
+}
